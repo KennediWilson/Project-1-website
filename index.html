@@ -113,11 +113,13 @@
             <div class="project-thumb" aria-hidden="true">Project&nbsp;Image</div>
             <div class="project-body">
               <!-- TODO: project title -->
-              <h3>Project Title</h3>
+              <h3> Simple Calendar </h3>
               <!-- TODO: 1-3 sentences: what the project does and why you built it -->
               <p>
-                A short description of the project: what problem it solves, what it does,
-                and anything you're proud of about how you built it.
+                This Calendar prompts the user to enter a date in the mm/dd format and incorporates input validation to ensure the month and day are valid numeric values within proper ranges. 
+                It defines several well-structured functions—including main, calendar, line, date_range, spacing, and print_date_left—to modularize and organize the program. A for loop is used to display five weeks of the calendar, with formatted output using f-strings to align the dates neatly.
+                The program utilizes the datetime module to retrieve and display the current date using datetime.datetime.now(). To handle unexpected or invalid input gracefully, it employs a try-except block, alongside conditional statements for program control and validation. 
+                Finally, the script includes a main guard (if name == "main":) to ensure that the main function runs only when the script is executed directly, allowing it to behave appropriately when imported as a module.
               </p>
               <!-- TODO: list the languages/tools you used, one <li> each -->
               <ul class="tech-tags">
